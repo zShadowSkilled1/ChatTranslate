@@ -1,5 +1,5 @@
 _G.Language = "auto" --Language you will see the messages
-loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/zShadowSkilled1/ChatTransmate/main/source.lua"))()
+loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/zShadowSkilled1/ChatTranslate/main/source.lua"))()
 --[[ local languages = {
         auto = "Automatic",
         af = "Afrikaans",
