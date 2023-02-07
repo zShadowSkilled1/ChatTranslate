@@ -266,13 +266,13 @@ pcall(function()
     
     game:GetService("StarterGui"):SetCore("SendNotification",
         {
-            Title = "Chat Translator",
-            Text = "Ported to Google Translate",
+            Title = "Translator",
+            Text = "Connected to Google Traduction",
             Duration = 3
         }
     )
                       
-    properties.Text = "[TR] To send messages in a language, say > followed by the target language/language code, e.g.: >ru or >russian. To disable (go back to original language), say >d."
+    properties.Text = "[TR] Use >[LANGUAGE] to translate your future messages to a language (E.G : >en)"
     StarterGui:SetCore("ChatMakeSystemMessage", properties)
     
     function translateFrom(message)
